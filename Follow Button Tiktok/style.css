@@ -1,0 +1,28 @@
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 98);
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line1 {
+    position: relative;
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 20px;
+}
+.line2 {
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    z-index: 3;
+    border-radius: 20px;
+    transform:rotate(90deg);
+}
